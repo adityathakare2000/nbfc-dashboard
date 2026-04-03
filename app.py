@@ -182,15 +182,44 @@ if page == "Dashboard":
         else:
             st.info("No data for selected filters")
 
-    with ch4:
-        st.subheader("Bureau score vs DPD")
+with ch4:
+        st.subheader("Bureau score vs risk bucket")
         if len(filtered) > 0:
-            fig4 = px.scatter(filtered, x="bureau_score_at_origination", y="dpd",
-                color="bucket", size="outstanding_amount",
-                color_discrete_map={"Current":"#1D9E75","SMA-0":"#EF9F27","SMA-1":"#D85A30","SMA-2":"#E24B4A","NPA":"#A32D2D"},
-                hover_data=["borrower_name","product","geography"],
-                labels={"bureau_score_at_origination": "Bureau Score", "dpd": "DPD"})
-            fig4.update_layout(height=300, margin=dict(t=10,b=10))
+            bureau_bucket = filtered.groupby("bucket")["bureau_score_at_origination"].mean().round(0).reset_index()
+            bureau_bucket.columns = ["Bucket", "Avg Bureau Score"]
+            bucket_order_list = ["Current","SMA-0","SMA-1","SMA-2","NPA"]
+            bureau_bucket["Bucket"] = pd.Categorical(bureau_bucket["Bucket"], categories=bucket_order_list, ordered=True)
+            bureau_bucket = bureau_bucket.sort_values("Bucket")
+
+            fig4 = go.Figure()
+            colors_map = {"Current":"#1D9E75","SMA-0":"#EF9F27","SMA-1":"#D85A30","SMA-2":"#E24B4A","NPA":"#A32D2D"}
+            for _, row in bureau_bucket.iterrows():
+                fig4.add_trace(go.Bar(
+                    x=[row["Bucket"]],
+                    y=[row["Avg Bureau Score"]],
+                    name=row["Bucket"],
+                    marker_color=colors_map.get(row["Bucket"], "#888"),
+                    text=[f"{int(row['Avg Bureau Score'])}"],
+                    textposition="outside",
+                    showlegend=False
+                ))
+
+            fig4.add_hline(
+                y=650,
+                line_dash="dash",
+                line_color="#185FA5",
+                annotation_text="Min safe threshold (650)",
+                annotation_font=dict(size=11, color="#185FA5")
+            )
+            fig4.update_layout(
+                height=300,
+                margin=dict(t=30, b=10),
+                yaxis=dict(title="Avg Bureau Score", range=[500, 800]),
+                xaxis_title="Risk Bucket",
+                plot_bgcolor="white",
+                paper_bgcolor="white",
+                yaxis_gridcolor="#f0f0f0"
+            )
             st.plotly_chart(fig4, use_container_width=True)
         else:
             st.info("No data for selected filters")
