@@ -380,7 +380,6 @@ else:
     else:
         df = pd.read_csv("loan_portfolio.csv")
         st.sidebar.info("Showing demo data — upload your CSV above")
-        st.sidebar.markdown("[📋 View upload guide](#)", help="Go to Data Upload Guide in the menu")
 
     total_aum = df["outstanding_amount"].sum() / 10000000
     total_loans = len(df)
