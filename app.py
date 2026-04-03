@@ -102,7 +102,7 @@ def color_cells(val):
     else:
         return "background-color: #FCEBEB; color: #A32D2D; font-weight: 500; text-align: center;"
 
-styled = roll_df.style.applymap(color_cells).format("{:.0f}%")
+styled = roll_df.style.map(color_cells).format("{:.0f}%")
 st.dataframe(styled, use_container_width=True)
 
 st.divider()
