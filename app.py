@@ -388,13 +388,10 @@ elif page == "AI Insights":
     st.markdown("---")
     st.subheader("3 month portfolio forecast")
     months = ["Current", "Month 1", "Month 2", "Month 3"]
-    
-    
-par_forecast = [par30, round(par30*1.05,1), round(par30*1.08,1), round(par30*1.03,1)]
+    par_forecast = [par30, round(par30*1.05,1), round(par30*1.08,1), round(par30*1.03,1)]
     npa_forecast = [npa_rate, round(npa_rate*1.08,1), round(npa_rate*1.12,1), round(npa_rate*1.06,1)]
 
     fig_fc = go.Figure()
-
     fig_fc.add_trace(go.Scatter(
         x=months, y=par_forecast,
         mode="lines+markers+text",
@@ -405,7 +402,6 @@ par_forecast = [par30, round(par30*1.05,1), round(par30*1.08,1), round(par30*1.0
         textposition="top center",
         textfont=dict(size=12, color="#E24B4A")
     ))
-
     fig_fc.add_trace(go.Scatter(
         x=months, y=npa_forecast,
         mode="lines+markers+text",
@@ -416,7 +412,6 @@ par_forecast = [par30, round(par30*1.05,1), round(par30*1.08,1), round(par30*1.0
         textposition="bottom center",
         textfont=dict(size=12, color="#1D9E75")
     ))
-
     fig_fc.add_hrect(
         y0=0, y1=INDUSTRY_PAR,
         fillcolor="#E6F1FB", opacity=0.3,
@@ -425,20 +420,17 @@ par_forecast = [par30, round(par30*1.05,1), round(par30*1.08,1), round(par30*1.0
         annotation_position="top left",
         annotation_font=dict(size=11, color="#185FA5")
     )
-
     fig_fc.update_layout(
         height=340,
         margin=dict(t=30, b=10),
         legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
         yaxis=dict(title="Rate (%)", rangemode="tozero"),
-        xaxis=dict(title=""),
+        xaxis_title="",
         plot_bgcolor="white",
         paper_bgcolor="white",
-        yaxis_gridcolor="#f0f0f0",
+        yaxis_gridcolor="#f0f0f0"
     )
     st.plotly_chart(fig_fc, use_container_width=True)
-    
-    
     st.markdown('<div class="guide-box">ℹ️ <strong>About predictions</strong> — Forecasts are directional indicators based on current roll rates. Actual outcomes depend on collection efforts and macro conditions.</div>', unsafe_allow_html=True)
 
 elif page == "Data Upload Guide":
