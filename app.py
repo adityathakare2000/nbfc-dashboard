@@ -390,7 +390,7 @@ elif page == "AI Insights":
     months = ["Current", "Month 1", "Month 2", "Month 3"]
     
     
-  par_forecast = [par30, round(par30*1.05,1), round(par30*1.08,1), round(par30*1.03,1)]
+par_forecast = [par30, round(par30*1.05,1), round(par30*1.08,1), round(par30*1.03,1)]
     npa_forecast = [npa_rate, round(npa_rate*1.08,1), round(npa_rate*1.12,1), round(npa_rate*1.06,1)]
 
     fig_fc = go.Figure()
