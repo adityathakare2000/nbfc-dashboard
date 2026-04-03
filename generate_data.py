@@ -6,7 +6,7 @@ import random
 random.seed(42)
 np.random.seed(42)
 
-n = 500
+n = 10000
 
 loan_ids = [f"LN-{10000 + i}" for i in range(n)]
 
