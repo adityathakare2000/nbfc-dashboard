@@ -1,0 +1,501 @@
+loan_id,borrower_name,product,geography,disbursement_date,loan_amount,outstanding_amount,tenure_months,interest_rate,emis_paid,dpd,bucket,collection_status,bureau_score_at_origination
+LN-10000,Reddy Steel 99,Equipment Finance,Pune,2023-04-25,300000,141033.0,36,14.22,28,0,Current,Collected,556
+LN-10001,Desai Construction 90,MSME Loan,Mumbai,2023-01-26,1500000,690804.0,36,18.5,26,0,Current,Collected,755
+LN-10002,Mehta Traders 98,MSME Loan,Thane,2023-10-09,750000,666799.0,24,22.48,14,0,Current,Collected,663
+LN-10003,Desai Construction 49,MSME Loan,Pune,2023-09-08,500000,231103.0,48,20.79,41,0,Current,Collected,821
+LN-10004,Singh Pharma 1,Working Capital,Thane,2023-08-17,200000,95353.0,36,21.68,12,0,Current,Collected,632
+LN-10005,Sharma Electronics 39,MSME Loan,Kolhapur,2023-05-23,200000,158722.0,24,19.91,6,0,Current,Collected,728
+LN-10006,Nair Exports 50,Personal Loan,Kolhapur,2023-04-15,100000,59233.0,60,20.31,47,0,Current,Collected,759
+LN-10007,Iyer Chemicals 54,MSME Loan,Mumbai,2023-03-31,1000000,804862.0,48,22.19,24,0,Current,Collected,673
+LN-10008,Gupta Garments 96,Personal Loan,Mumbai,2024-03-08,500000,171244.0,60,15.0,47,0,Current,Collected,662
+LN-10009,Verma Agro 70,Working Capital,Thane,2023-02-02,750000,462691.0,48,17.87,39,0,Current,Collected,561
+LN-10010,Nair Exports 78,MSME Loan,Nagpur,2023-01-31,100000,32185.0,36,14.65,8,15,SMA-0,Partially Collected,675
+LN-10011,Reddy Steel 29,Working Capital,Nashik,2023-04-06,1500000,511087.0,36,23.85,29,0,Current,Collected,602
+LN-10012,Singh Pharma 29,Business Loan,Pune,2023-08-12,1000000,889184.0,60,23.33,30,75,SMA-2,Defaulted,832
+LN-10013,Priya Foods 56,Personal Loan,Pune,2023-08-27,200000,78102.0,48,12.47,26,0,Current,Collected,689
+LN-10014,Singh Pharma 4,Equipment Finance,Nagpur,2024-06-01,200000,129215.0,12,20.47,7,0,Current,Collected,646
+LN-10015,Patel Hardware 44,Business Loan,Nagpur,2023-01-28,200000,113442.0,12,23.1,10,0,Current,Collected,554
+LN-10016,Joshi Logistics 87,Equipment Finance,Nagpur,2023-07-23,300000,157732.0,36,14.17,7,0,Current,Collected,606
+LN-10017,Nair Exports 52,Personal Loan,Aurangabad,2024-03-05,500000,442446.0,48,18.82,25,45,SMA-1,Partially Collected,618
+LN-10018,Verma Agro 22,Business Loan,Aurangabad,2023-08-14,300000,94256.0,60,22.99,40,0,Current,Collected,667
+LN-10019,Iyer Chemicals 60,Equipment Finance,Thane,2024-04-04,300000,219439.0,24,12.41,16,60,SMA-1,Partially Collected,608
+LN-10020,Reddy Steel 17,Working Capital,Aurangabad,2023-10-12,500000,463103.0,36,20.37,24,0,Current,Collected,582
+LN-10021,Desai Construction 69,Working Capital,Kolhapur,2023-01-07,200000,132822.0,36,15.57,10,60,SMA-1,Partially Collected,599
+LN-10022,Mehta Traders 51,MSME Loan,Kolhapur,2023-06-13,300000,272680.0,60,23.09,24,0,Current,Collected,568
+LN-10023,Desai Construction 73,Business Loan,Mumbai,2024-03-08,300000,100190.0,48,23.65,21,0,Current,Collected,763
+LN-10024,Joshi Logistics 4,Business Loan,Thane,2023-12-15,500000,286108.0,48,23.33,36,0,Current,Collected,746
+LN-10025,Rajan Enterprises 83,Equipment Finance,Pune,2023-10-12,750000,351827.0,36,17.69,14,0,Current,Collected,596
+LN-10026,Patel Hardware 18,MSME Loan,Nashik,2023-06-09,200000,155007.0,36,22.34,12,0,Current,Collected,716
+LN-10027,Iyer Chemicals 60,Personal Loan,Mumbai,2023-08-09,500000,468922.0,24,22.13,20,0,Current,Collected,838
+LN-10028,Sunita Textiles 7,Business Loan,Pune,2023-12-11,500000,233372.0,12,15.83,2,15,SMA-0,Partially Collected,690
+LN-10029,Priya Foods 49,Equipment Finance,Pune,2023-04-15,100000,72521.0,48,21.95,43,0,Current,Collected,633
+LN-10030,Sharma Electronics 28,Business Loan,Thane,2023-04-05,500000,214382.0,48,12.44,32,0,Current,Collected,731
+LN-10031,Singh Pharma 42,Business Loan,Nagpur,2024-01-25,200000,133493.0,60,19.16,46,0,Current,Collected,628
+LN-10032,Sharma Electronics 98,MSME Loan,Nagpur,2023-04-10,100000,60156.0,60,14.76,24,0,Current,Collected,764
+LN-10033,Reddy Steel 49,MSME Loan,Mumbai,2024-01-03,1500000,1397705.0,36,13.45,7,0,Current,Collected,563
+LN-10034,Priya Foods 97,Equipment Finance,Nagpur,2023-12-19,1500000,1043314.0,48,12.92,34,0,Current,Collected,764
+LN-10035,Iyer Chemicals 54,Personal Loan,Pune,2023-09-28,1000000,527179.0,60,20.36,47,0,Current,Collected,677
+LN-10036,Priya Foods 11,Equipment Finance,Nagpur,2023-02-14,300000,112249.0,48,16.08,34,0,Current,Collected,797
+LN-10037,Singh Pharma 3,Personal Loan,Aurangabad,2024-04-15,100000,39831.0,24,20.7,7,0,Current,Collected,578
+LN-10038,Verma Agro 70,Working Capital,Nagpur,2023-05-08,750000,334842.0,36,12.78,26,0,Current,Collected,829
+LN-10039,Mehta Traders 45,Equipment Finance,Pune,2024-01-23,300000,138938.0,24,15.78,17,0,Current,Collected,751
+LN-10040,Kumar Auto Parts 84,Working Capital,Thane,2023-03-22,200000,170580.0,60,18.47,39,0,Current,Collected,606
+LN-10041,Rajan Enterprises 84,Equipment Finance,Mumbai,2023-10-28,500000,332397.0,36,21.49,26,0,Current,Collected,767
+LN-10042,Mehta Traders 97,Business Loan,Nashik,2024-01-06,100000,64020.0,24,15.83,19,0,Current,Collected,611
+LN-10043,Mehta Traders 32,Working Capital,Nagpur,2023-07-16,1500000,561900.0,36,19.51,22,0,Current,Collected,706
+LN-10044,Kumar Auto Parts 3,Business Loan,Kolhapur,2023-03-13,300000,257727.0,36,22.63,9,75,SMA-2,Defaulted,751
+LN-10045,Desai Construction 20,Equipment Finance,Kolhapur,2023-02-16,750000,577372.0,36,19.39,19,0,Current,Collected,566
+LN-10046,Kumar Auto Parts 17,Working Capital,Pune,2023-08-22,300000,103195.0,24,14.8,6,15,SMA-0,Partially Collected,555
+LN-10047,Singh Pharma 86,Business Loan,Nashik,2023-10-24,500000,380046.0,36,12.29,17,0,Current,Collected,607
+LN-10048,Rajan Enterprises 73,Business Loan,Nashik,2023-03-23,500000,326650.0,36,22.44,17,0,Current,Collected,718
+LN-10049,Kumar Auto Parts 60,Personal Loan,Aurangabad,2023-08-27,200000,70624.0,48,12.26,11,0,Current,Collected,631
+LN-10050,Verma Agro 33,Equipment Finance,Nashik,2023-04-14,1500000,896843.0,36,22.5,15,75,SMA-2,Defaulted,768
+LN-10051,Nair Exports 48,Business Loan,Kolhapur,2024-01-25,750000,461289.0,48,18.35,13,0,Current,Collected,726
+LN-10052,Sunita Textiles 78,Equipment Finance,Thane,2023-10-12,1500000,611630.0,36,23.27,27,15,SMA-0,Partially Collected,753
+LN-10053,Desai Construction 96,Equipment Finance,Pune,2024-04-09,1000000,914704.0,36,21.59,31,45,SMA-1,Partially Collected,620
+LN-10054,Verma Agro 15,MSME Loan,Pune,2024-01-09,500000,426242.0,48,23.98,12,0,Current,Collected,815
+LN-10055,Nair Exports 21,Personal Loan,Nagpur,2023-06-16,1500000,1102297.0,36,16.21,31,0,Current,Collected,647
+LN-10056,Priya Foods 14,Equipment Finance,Nagpur,2024-01-15,100000,60049.0,24,21.21,13,0,Current,Collected,840
+LN-10057,Desai Construction 4,MSME Loan,Nagpur,2023-12-30,200000,113530.0,12,16.82,4,0,Current,Collected,757
+LN-10058,Reddy Steel 40,Working Capital,Kolhapur,2023-08-03,100000,72313.0,48,17.76,12,30,SMA-0,Partially Collected,551
+LN-10059,Desai Construction 87,Working Capital,Kolhapur,2023-10-01,300000,196359.0,36,19.53,19,45,SMA-1,Partially Collected,673
+LN-10060,Reddy Steel 49,Business Loan,Kolhapur,2023-03-15,300000,102143.0,48,22.48,36,0,Current,Collected,829
+LN-10061,Patel Hardware 92,Business Loan,Kolhapur,2023-06-25,300000,189938.0,24,23.81,16,0,Current,Collected,623
+LN-10062,Kumar Auto Parts 10,Business Loan,Kolhapur,2024-06-30,1000000,824162.0,24,21.22,5,15,SMA-0,Partially Collected,715
+LN-10063,Desai Construction 89,Equipment Finance,Kolhapur,2023-09-08,300000,179552.0,12,17.01,3,0,Current,Collected,571
+LN-10064,Iyer Chemicals 81,Equipment Finance,Thane,2023-06-17,300000,100132.0,36,17.06,17,15,SMA-0,Partially Collected,703
+LN-10065,Kumar Auto Parts 14,Equipment Finance,Kolhapur,2024-04-18,500000,405540.0,36,20.85,14,0,Current,Collected,844
+LN-10066,Verma Agro 99,Personal Loan,Nashik,2024-01-24,200000,86177.0,36,14.87,13,0,Current,Collected,768
+LN-10067,Priya Foods 88,Working Capital,Nashik,2023-10-04,1000000,468104.0,36,13.33,14,0,Current,Collected,706
+LN-10068,Desai Construction 16,Business Loan,Aurangabad,2023-08-13,100000,40706.0,60,16.26,45,0,Current,Collected,779
+LN-10069,Nair Exports 73,MSME Loan,Thane,2023-11-29,2000000,1029280.0,24,15.45,20,0,Current,Collected,569
+LN-10070,Nair Exports 6,MSME Loan,Nagpur,2023-02-27,750000,593916.0,36,15.56,17,0,Current,Collected,590
+LN-10071,Sharma Electronics 69,MSME Loan,Mumbai,2023-08-23,200000,127520.0,48,14.8,40,0,Current,Collected,697
+LN-10072,Patel Hardware 85,Equipment Finance,Kolhapur,2023-02-02,100000,43317.0,36,12.51,15,0,Current,Collected,657
+LN-10073,Sharma Electronics 9,Working Capital,Aurangabad,2023-11-20,1000000,870590.0,36,12.21,19,30,SMA-0,Partially Collected,633
+LN-10074,Gupta Garments 83,MSME Loan,Mumbai,2024-02-15,750000,653796.0,48,23.85,17,0,Current,Collected,839
+LN-10075,Sharma Electronics 2,Equipment Finance,Nashik,2023-10-02,750000,649407.0,60,17.13,38,0,Current,Collected,683
+LN-10076,Iyer Chemicals 54,Working Capital,Aurangabad,2023-03-09,750000,341413.0,24,16.61,21,0,Current,Collected,756
+LN-10077,Iyer Chemicals 63,MSME Loan,Aurangabad,2023-08-05,100000,59331.0,60,20.16,37,0,Current,Collected,832
+LN-10078,Rajan Enterprises 56,Business Loan,Pune,2023-11-19,300000,282073.0,36,14.62,16,0,Current,Collected,815
+LN-10079,Sharma Electronics 82,MSME Loan,Nashik,2023-08-06,200000,160362.0,24,23.4,15,0,Current,Collected,622
+LN-10080,Reddy Steel 59,Business Loan,Nashik,2024-05-26,1000000,317659.0,36,21.44,10,0,Current,Collected,597
+LN-10081,Verma Agro 20,Personal Loan,Thane,2024-02-10,500000,171191.0,60,13.07,49,0,Current,Collected,782
+LN-10082,Patel Hardware 23,Business Loan,Aurangabad,2024-04-14,300000,180467.0,36,17.01,19,0,Current,Collected,649
+LN-10083,Verma Agro 67,MSME Loan,Kolhapur,2023-05-27,100000,89099.0,24,22.55,12,0,Current,Collected,608
+LN-10084,Joshi Logistics 35,MSME Loan,Nashik,2023-09-29,300000,195047.0,36,23.34,21,90,SMA-2,Defaulted,807
+LN-10085,Desai Construction 69,Personal Loan,Aurangabad,2023-05-23,300000,187073.0,24,17.61,15,0,Current,Collected,614
+LN-10086,Nair Exports 62,Business Loan,Thane,2023-09-10,750000,276418.0,12,19.36,3,0,Current,Collected,632
+LN-10087,Singh Pharma 56,Business Loan,Kolhapur,2023-09-27,500000,363454.0,24,14.0,16,0,Current,Collected,703
+LN-10088,Iyer Chemicals 94,Business Loan,Thane,2024-03-14,1000000,834367.0,24,23.89,8,0,Current,Collected,815
+LN-10089,Desai Construction 35,Business Loan,Pune,2024-02-13,500000,273637.0,24,14.78,16,0,Current,Collected,628
+LN-10090,Sharma Electronics 32,Business Loan,Kolhapur,2024-01-06,200000,160830.0,24,23.31,18,0,Current,Collected,699
+LN-10091,Iyer Chemicals 12,Equipment Finance,Aurangabad,2023-08-13,750000,695182.0,36,19.8,27,120,NPA,Defaulted,597
+LN-10092,Priya Foods 58,Business Loan,Nashik,2023-05-22,750000,324336.0,24,19.29,14,0,Current,Collected,797
+LN-10093,Kumar Auto Parts 97,Business Loan,Nashik,2024-06-05,500000,320082.0,24,18.15,13,0,Current,Collected,827
+LN-10094,Singh Pharma 73,Working Capital,Aurangabad,2024-05-20,750000,364980.0,48,14.77,14,0,Current,Collected,647
+LN-10095,Desai Construction 86,MSME Loan,Aurangabad,2023-04-04,500000,407678.0,36,14.12,26,0,Current,Collected,574
+LN-10096,Patel Hardware 44,MSME Loan,Aurangabad,2023-02-18,500000,337718.0,36,14.65,14,0,Current,Collected,833
+LN-10097,Mehta Traders 64,MSME Loan,Nagpur,2023-04-23,300000,213744.0,24,14.24,13,0,Current,Collected,617
+LN-10098,Iyer Chemicals 42,Personal Loan,Kolhapur,2023-06-06,100000,81864.0,24,21.36,9,0,Current,Collected,556
+LN-10099,Sunita Textiles 63,Business Loan,Nashik,2023-06-13,200000,111476.0,12,16.2,3,45,SMA-1,Partially Collected,686
+LN-10100,Kumar Auto Parts 46,Working Capital,Kolhapur,2024-03-08,100000,89481.0,24,12.69,15,0,Current,Collected,713
+LN-10101,Nair Exports 34,Working Capital,Thane,2023-03-07,500000,323234.0,24,23.63,5,0,Current,Collected,632
+LN-10102,Sharma Electronics 36,Business Loan,Nashik,2024-01-30,300000,120801.0,24,22.61,17,0,Current,Collected,687
+LN-10103,Reddy Steel 77,Personal Loan,Nagpur,2024-01-26,500000,376167.0,12,23.13,5,0,Current,Collected,622
+LN-10104,Verma Agro 36,Business Loan,Aurangabad,2024-04-24,1500000,1223430.0,24,23.94,4,0,Current,Collected,786
+LN-10105,Gupta Garments 2,Business Loan,Pune,2024-06-25,200000,101179.0,36,14.09,20,0,Current,Collected,595
+LN-10106,Gupta Garments 25,Working Capital,Aurangabad,2023-09-15,300000,257150.0,24,16.75,5,0,Current,Collected,655
+LN-10107,Rajan Enterprises 31,Working Capital,Aurangabad,2023-01-12,750000,666745.0,36,21.1,14,15,SMA-0,Partially Collected,837
+LN-10108,Verma Agro 53,Equipment Finance,Nagpur,2023-04-28,200000,95998.0,36,20.35,25,0,Current,Collected,811
+LN-10109,Singh Pharma 72,Business Loan,Kolhapur,2023-10-01,100000,93929.0,36,13.85,8,0,Current,Collected,725
+LN-10110,Nair Exports 31,MSME Loan,Nashik,2023-12-15,300000,117439.0,12,21.79,9,45,SMA-1,Partially Collected,715
+LN-10111,Verma Agro 61,Working Capital,Aurangabad,2023-04-25,200000,86262.0,48,14.69,9,0,Current,Collected,694
+LN-10112,Joshi Logistics 92,MSME Loan,Nashik,2023-10-28,1500000,629619.0,36,14.69,13,0,Current,Collected,832
+LN-10113,Singh Pharma 58,MSME Loan,Mumbai,2024-03-21,1000000,881093.0,12,18.44,8,0,Current,Collected,603
+LN-10114,Nair Exports 3,Business Loan,Thane,2023-06-11,500000,362645.0,48,19.12,20,0,Current,Collected,727
+LN-10115,Rajan Enterprises 38,Business Loan,Kolhapur,2024-04-09,1000000,398868.0,60,18.96,16,0,Current,Collected,793
+LN-10116,Kumar Auto Parts 52,Working Capital,Nashik,2023-01-04,1000000,586210.0,12,13.1,5,120,NPA,Defaulted,676
+LN-10117,Verma Agro 32,MSME Loan,Pune,2023-09-27,200000,139989.0,24,22.53,9,0,Current,Collected,820
+LN-10118,Priya Foods 85,Personal Loan,Thane,2024-05-27,1000000,354252.0,48,15.19,37,0,Current,Collected,681
+LN-10119,Desai Construction 48,MSME Loan,Pune,2023-07-02,500000,436785.0,48,13.55,20,0,Current,Collected,642
+LN-10120,Singh Pharma 71,Working Capital,Aurangabad,2024-06-03,1000000,822342.0,24,22.66,18,0,Current,Collected,622
+LN-10121,Gupta Garments 45,Business Loan,Thane,2023-04-19,1000000,628384.0,24,23.47,19,0,Current,Collected,797
+LN-10122,Patel Hardware 96,MSME Loan,Nashik,2023-11-02,300000,278590.0,36,22.35,18,0,Current,Collected,822
+LN-10123,Gupta Garments 43,Business Loan,Thane,2024-06-03,200000,114309.0,36,21.71,30,75,SMA-2,Defaulted,592
+LN-10124,Sharma Electronics 90,MSME Loan,Aurangabad,2023-07-23,200000,187934.0,36,19.86,16,0,Current,Collected,590
+LN-10125,Singh Pharma 35,MSME Loan,Nagpur,2023-06-06,300000,220244.0,36,18.61,31,0,Current,Collected,719
+LN-10126,Priya Foods 33,Personal Loan,Kolhapur,2024-01-18,1000000,712536.0,36,13.04,9,0,Current,Collected,761
+LN-10127,Kumar Auto Parts 16,Equipment Finance,Pune,2023-06-15,1000000,407871.0,48,16.9,32,0,Current,Collected,717
+LN-10128,Verma Agro 25,Business Loan,Aurangabad,2024-06-27,100000,87325.0,12,16.47,6,0,Current,Collected,588
+LN-10129,Sharma Electronics 16,Business Loan,Nagpur,2023-01-01,500000,288934.0,24,15.12,11,0,Current,Collected,794
+LN-10130,Verma Agro 69,Business Loan,Thane,2023-11-28,300000,121636.0,48,20.68,30,0,Current,Collected,700
+LN-10131,Nair Exports 89,Equipment Finance,Thane,2024-05-15,200000,61639.0,48,17.95,33,0,Current,Collected,660
+LN-10132,Sunita Textiles 25,Working Capital,Aurangabad,2023-01-20,200000,132768.0,36,12.97,7,0,Current,Collected,596
+LN-10133,Kumar Auto Parts 95,Personal Loan,Nashik,2023-04-25,300000,192843.0,36,14.64,11,15,SMA-0,Partially Collected,612
+LN-10134,Singh Pharma 36,Business Loan,Thane,2024-01-07,1500000,1151370.0,24,20.2,16,60,SMA-1,Partially Collected,774
+LN-10135,Verma Agro 76,MSME Loan,Nashik,2023-11-11,300000,263600.0,36,12.91,23,0,Current,Collected,618
+LN-10136,Nair Exports 68,MSME Loan,Nashik,2023-09-03,500000,175807.0,36,22.21,31,0,Current,Collected,848
+LN-10137,Desai Construction 37,Equipment Finance,Kolhapur,2023-03-01,750000,581605.0,24,17.94,17,0,Current,Collected,839
+LN-10138,Rajan Enterprises 25,Equipment Finance,Nashik,2023-09-04,300000,126545.0,24,17.77,20,120,NPA,Defaulted,845
+LN-10139,Priya Foods 30,Equipment Finance,Mumbai,2023-03-22,2000000,1715630.0,36,19.11,24,60,SMA-1,Partially Collected,752
+LN-10140,Sharma Electronics 23,Equipment Finance,Kolhapur,2023-03-29,1500000,1248587.0,12,21.9,4,0,Current,Collected,610
+LN-10141,Priya Foods 2,Business Loan,Nagpur,2024-05-12,300000,195455.0,24,16.17,6,30,SMA-0,Partially Collected,710
+LN-10142,Verma Agro 69,Working Capital,Nagpur,2023-03-12,500000,380829.0,24,20.14,17,0,Current,Collected,565
+LN-10143,Sunita Textiles 36,Business Loan,Thane,2024-06-29,300000,151298.0,24,18.79,15,0,Current,Collected,643
+LN-10144,Mehta Traders 7,Equipment Finance,Thane,2023-05-09,300000,181878.0,24,15.2,5,0,Current,Collected,687
+LN-10145,Gupta Garments 38,MSME Loan,Nashik,2023-05-12,100000,83406.0,48,22.54,21,0,Current,Collected,587
+LN-10146,Verma Agro 17,MSME Loan,Kolhapur,2024-05-01,500000,299261.0,36,21.57,31,0,Current,Collected,676
+LN-10147,Joshi Logistics 97,Personal Loan,Kolhapur,2023-06-19,500000,266284.0,36,19.9,19,15,SMA-0,Partially Collected,824
+LN-10148,Singh Pharma 14,Working Capital,Mumbai,2023-09-29,100000,62124.0,48,22.21,24,15,SMA-0,Partially Collected,713
+LN-10149,Iyer Chemicals 2,Working Capital,Nashik,2024-06-24,300000,251509.0,36,22.41,18,0,Current,Collected,626
+LN-10150,Desai Construction 37,MSME Loan,Mumbai,2024-03-09,1500000,776828.0,12,20.5,4,0,Current,Collected,723
+LN-10151,Singh Pharma 62,Working Capital,Nashik,2023-08-05,200000,82589.0,36,22.04,16,0,Current,Collected,640
+LN-10152,Singh Pharma 44,MSME Loan,Pune,2023-07-25,200000,152562.0,36,20.37,16,0,Current,Collected,787
+LN-10153,Sunita Textiles 7,Working Capital,Pune,2023-11-16,500000,418443.0,48,20.16,11,0,Current,Collected,813
+LN-10154,Priya Foods 62,MSME Loan,Aurangabad,2024-02-13,2000000,730829.0,36,19.42,26,0,Current,Collected,728
+LN-10155,Rajan Enterprises 9,Personal Loan,Nashik,2024-01-18,200000,91184.0,24,21.03,11,60,SMA-1,Partially Collected,758
+LN-10156,Patel Hardware 63,Personal Loan,Kolhapur,2024-03-24,750000,294211.0,24,13.9,18,0,Current,Collected,622
+LN-10157,Rajan Enterprises 74,Working Capital,Thane,2024-06-13,750000,394621.0,36,22.57,28,0,Current,Collected,656
+LN-10158,Joshi Logistics 88,Business Loan,Nagpur,2024-04-07,200000,118546.0,36,22.46,12,0,Current,Collected,844
+LN-10159,Mehta Traders 20,Business Loan,Aurangabad,2023-05-04,750000,590053.0,36,12.35,23,0,Current,Collected,833
+LN-10160,Sunita Textiles 73,Working Capital,Thane,2023-09-11,300000,216974.0,36,21.91,19,0,Current,Collected,731
+LN-10161,Priya Foods 11,Business Loan,Pune,2023-08-19,500000,351802.0,60,13.55,48,0,Current,Collected,586
+LN-10162,Kumar Auto Parts 16,Working Capital,Nashik,2023-03-07,500000,264522.0,36,16.02,12,45,SMA-1,Partially Collected,686
+LN-10163,Gupta Garments 98,MSME Loan,Aurangabad,2023-12-13,500000,423470.0,24,20.92,16,0,Current,Collected,605
+LN-10164,Patel Hardware 78,MSME Loan,Nashik,2023-01-22,100000,60634.0,24,13.93,15,120,NPA,Defaulted,736
+LN-10165,Desai Construction 80,Personal Loan,Pune,2023-08-24,1000000,936418.0,24,21.82,9,30,SMA-0,Partially Collected,807
+LN-10166,Kumar Auto Parts 67,Equipment Finance,Aurangabad,2023-08-14,300000,213658.0,24,21.99,7,0,Current,Collected,607
+LN-10167,Patel Hardware 58,Equipment Finance,Pune,2023-01-08,200000,76414.0,24,18.09,15,60,SMA-1,Partially Collected,672
+LN-10168,Reddy Steel 57,Equipment Finance,Mumbai,2023-03-14,100000,73952.0,24,12.08,17,0,Current,Collected,737
+LN-10169,Priya Foods 76,MSME Loan,Pune,2023-03-02,500000,255659.0,24,15.44,10,15,SMA-0,Partially Collected,779
+LN-10170,Patel Hardware 40,Working Capital,Kolhapur,2023-08-23,750000,559585.0,24,19.4,15,0,Current,Collected,717
+LN-10171,Desai Construction 80,Business Loan,Kolhapur,2023-03-11,100000,34527.0,48,23.77,22,30,SMA-0,Partially Collected,663
+LN-10172,Mehta Traders 79,Personal Loan,Nashik,2023-02-02,500000,206836.0,12,19.58,8,30,SMA-0,Partially Collected,801
+LN-10173,Verma Agro 13,Working Capital,Nagpur,2023-12-05,200000,171246.0,36,15.12,12,15,SMA-0,Partially Collected,656
+LN-10174,Nair Exports 27,MSME Loan,Pune,2023-03-14,500000,223833.0,36,19.61,29,15,SMA-0,Partially Collected,586
+LN-10175,Joshi Logistics 28,Working Capital,Thane,2024-06-10,200000,168815.0,60,18.48,24,0,Current,Collected,641
+LN-10176,Priya Foods 85,Equipment Finance,Kolhapur,2023-09-01,750000,361147.0,24,21.36,10,0,Current,Collected,567
+LN-10177,Rajan Enterprises 21,MSME Loan,Nagpur,2023-10-13,300000,215362.0,36,13.28,8,0,Current,Collected,612
+LN-10178,Kumar Auto Parts 23,Personal Loan,Mumbai,2024-05-12,1500000,1126797.0,60,21.13,16,0,Current,Collected,699
+LN-10179,Gupta Garments 10,Business Loan,Aurangabad,2023-08-08,200000,126645.0,48,18.5,26,0,Current,Collected,688
+LN-10180,Sunita Textiles 1,Business Loan,Aurangabad,2023-05-16,300000,149536.0,48,23.56,18,0,Current,Collected,735
+LN-10181,Patel Hardware 58,MSME Loan,Kolhapur,2024-04-29,200000,87644.0,24,16.1,18,90,SMA-2,Defaulted,734
+LN-10182,Verma Agro 77,MSME Loan,Nagpur,2023-09-06,1500000,482360.0,24,19.59,5,0,Current,Collected,754
+LN-10183,Singh Pharma 38,Equipment Finance,Kolhapur,2024-04-29,1000000,497565.0,36,23.18,16,15,SMA-0,Partially Collected,809
+LN-10184,Mehta Traders 30,Working Capital,Aurangabad,2024-02-21,300000,217367.0,60,13.23,26,0,Current,Collected,763
+LN-10185,Priya Foods 91,Equipment Finance,Pune,2023-07-14,750000,682424.0,36,23.25,7,30,SMA-0,Partially Collected,805
+LN-10186,Priya Foods 90,Equipment Finance,Nagpur,2023-04-07,1000000,866283.0,36,20.25,10,60,SMA-1,Partially Collected,684
+LN-10187,Iyer Chemicals 59,Business Loan,Nashik,2023-04-10,500000,398971.0,24,12.81,11,0,Current,Collected,610
+LN-10188,Rajan Enterprises 88,MSME Loan,Pune,2024-03-17,500000,406245.0,48,15.61,26,0,Current,Collected,637
+LN-10189,Kumar Auto Parts 34,Business Loan,Pune,2023-12-29,200000,146448.0,24,20.5,11,0,Current,Collected,756
+LN-10190,Nair Exports 81,Business Loan,Pune,2024-03-09,100000,46919.0,24,12.81,13,0,Current,Collected,678
+LN-10191,Desai Construction 85,Equipment Finance,Nashik,2024-02-25,1000000,889677.0,36,18.99,22,0,Current,Collected,552
+LN-10192,Nair Exports 26,Business Loan,Mumbai,2024-04-23,1500000,1103964.0,36,16.15,7,0,Current,Collected,791
+LN-10193,Patel Hardware 15,Business Loan,Thane,2023-02-25,500000,332143.0,24,19.45,12,0,Current,Collected,670
+LN-10194,Gupta Garments 29,Business Loan,Kolhapur,2023-04-11,300000,111643.0,24,12.55,20,0,Current,Collected,651
+LN-10195,Joshi Logistics 20,Personal Loan,Aurangabad,2023-03-04,300000,177176.0,36,22.46,20,0,Current,Collected,587
+LN-10196,Reddy Steel 35,Personal Loan,Kolhapur,2024-02-17,750000,449425.0,24,23.68,16,0,Current,Collected,682
+LN-10197,Iyer Chemicals 19,Equipment Finance,Nagpur,2023-12-14,1000000,861966.0,36,23.63,15,0,Current,Collected,751
+LN-10198,Rajan Enterprises 8,Personal Loan,Mumbai,2023-04-22,1000000,655321.0,24,21.0,17,75,SMA-2,Defaulted,570
+LN-10199,Sunita Textiles 40,Working Capital,Nagpur,2023-09-12,750000,410445.0,36,13.56,26,0,Current,Collected,791
+LN-10200,Desai Construction 96,Equipment Finance,Kolhapur,2023-07-16,500000,467460.0,36,21.1,20,75,SMA-2,Defaulted,658
+LN-10201,Iyer Chemicals 73,Business Loan,Aurangabad,2023-07-14,100000,37197.0,12,12.3,10,0,Current,Collected,633
+LN-10202,Reddy Steel 37,Working Capital,Nashik,2024-04-04,200000,114931.0,24,12.27,6,0,Current,Collected,632
+LN-10203,Singh Pharma 16,Working Capital,Kolhapur,2023-05-24,1000000,327316.0,24,15.88,5,0,Current,Collected,840
+LN-10204,Singh Pharma 89,Equipment Finance,Pune,2024-03-08,500000,390469.0,12,17.86,8,0,Current,Collected,618
+LN-10205,Priya Foods 90,Working Capital,Kolhapur,2023-07-07,100000,89675.0,60,21.24,45,0,Current,Collected,678
+LN-10206,Patel Hardware 35,MSME Loan,Pune,2023-10-13,200000,96405.0,24,20.2,6,0,Current,Collected,745
+LN-10207,Gupta Garments 70,Working Capital,Nashik,2024-04-18,750000,643442.0,48,17.35,18,0,Current,Collected,689
+LN-10208,Singh Pharma 57,Personal Loan,Kolhapur,2023-09-13,100000,48994.0,24,15.28,5,0,Current,Collected,832
+LN-10209,Rajan Enterprises 77,MSME Loan,Mumbai,2023-03-19,200000,178400.0,36,23.97,14,0,Current,Collected,783
+LN-10210,Mehta Traders 56,Working Capital,Mumbai,2024-03-29,500000,395038.0,48,17.11,35,0,Current,Collected,572
+LN-10211,Verma Agro 42,MSME Loan,Nagpur,2023-04-11,750000,617392.0,36,17.42,20,0,Current,Collected,702
+LN-10212,Desai Construction 33,Equipment Finance,Nashik,2023-02-21,750000,233778.0,36,13.96,15,15,SMA-0,Partially Collected,826
+LN-10213,Mehta Traders 12,Working Capital,Mumbai,2023-01-16,200000,185165.0,36,21.54,16,0,Current,Collected,610
+LN-10214,Kumar Auto Parts 87,Business Loan,Kolhapur,2023-04-06,750000,579252.0,24,20.32,4,0,Current,Collected,601
+LN-10215,Iyer Chemicals 74,Equipment Finance,Nashik,2023-08-31,200000,99618.0,60,14.65,24,120,NPA,Defaulted,702
+LN-10216,Desai Construction 3,Business Loan,Aurangabad,2023-06-20,300000,251732.0,48,12.99,31,0,Current,Collected,786
+LN-10217,Nair Exports 87,Equipment Finance,Pune,2024-02-21,750000,362242.0,60,20.17,52,0,Current,Collected,581
+LN-10218,Iyer Chemicals 35,MSME Loan,Kolhapur,2024-05-12,500000,433645.0,24,19.85,19,90,SMA-2,Defaulted,604
+LN-10219,Desai Construction 6,Working Capital,Pune,2024-05-07,1000000,373177.0,48,15.28,10,0,Current,Collected,585
+LN-10220,Nair Exports 97,Business Loan,Pune,2023-08-07,750000,568047.0,60,23.41,49,0,Current,Collected,659
+LN-10221,Sunita Textiles 61,Equipment Finance,Nashik,2024-02-15,500000,325727.0,24,13.81,17,0,Current,Collected,726
+LN-10222,Gupta Garments 84,Business Loan,Nashik,2023-03-02,100000,36275.0,12,17.19,8,0,Current,Collected,844
+LN-10223,Singh Pharma 36,Working Capital,Nagpur,2023-06-18,300000,137169.0,48,23.32,24,0,Current,Collected,646
+LN-10224,Sunita Textiles 75,Personal Loan,Pune,2024-01-24,300000,92419.0,36,17.04,17,0,Current,Collected,762
+LN-10225,Patel Hardware 82,Personal Loan,Nagpur,2023-01-03,200000,120940.0,48,19.66,19,0,Current,Collected,686
+LN-10226,Iyer Chemicals 63,Working Capital,Pune,2024-02-04,2000000,991645.0,24,16.77,5,0,Current,Collected,555
+LN-10227,Rajan Enterprises 61,Working Capital,Nagpur,2023-09-29,300000,206680.0,48,15.29,17,120,NPA,Defaulted,658
+LN-10228,Sharma Electronics 53,Business Loan,Nagpur,2024-04-10,1000000,493205.0,24,23.81,8,15,SMA-0,Partially Collected,584
+LN-10229,Sharma Electronics 42,MSME Loan,Aurangabad,2023-10-20,500000,247474.0,24,16.91,12,0,Current,Collected,588
+LN-10230,Joshi Logistics 14,MSME Loan,Nagpur,2024-03-09,750000,587307.0,24,22.73,17,0,Current,Collected,699
+LN-10231,Iyer Chemicals 21,Working Capital,Nashik,2024-05-13,500000,165646.0,48,14.76,25,0,Current,Collected,667
+LN-10232,Sharma Electronics 53,Personal Loan,Nagpur,2023-06-08,500000,443441.0,36,14.56,8,0,Current,Collected,810
+LN-10233,Verma Agro 64,Business Loan,Pune,2023-07-14,500000,426986.0,36,12.37,31,0,Current,Collected,636
+LN-10234,Priya Foods 85,Personal Loan,Nagpur,2023-10-31,200000,146815.0,36,19.82,30,0,Current,Collected,625
+LN-10235,Patel Hardware 98,Equipment Finance,Mumbai,2023-08-11,750000,514196.0,48,16.42,35,45,SMA-1,Partially Collected,763
+LN-10236,Gupta Garments 5,Equipment Finance,Thane,2023-03-01,300000,263999.0,36,22.37,32,0,Current,Collected,834
+LN-10237,Singh Pharma 12,Business Loan,Pune,2023-03-04,100000,42046.0,48,17.68,27,0,Current,Collected,788
+LN-10238,Sharma Electronics 33,Business Loan,Mumbai,2023-11-18,500000,175665.0,36,23.62,31,0,Current,Collected,714
+LN-10239,Sharma Electronics 15,Equipment Finance,Pune,2023-02-28,200000,91136.0,36,14.23,9,0,Current,Collected,636
+LN-10240,Nair Exports 52,Equipment Finance,Nashik,2023-02-21,1500000,1224714.0,36,22.42,16,15,SMA-0,Partially Collected,690
+LN-10241,Iyer Chemicals 66,Business Loan,Thane,2024-05-03,1500000,483804.0,24,21.32,8,0,Current,Collected,709
+LN-10242,Iyer Chemicals 1,Equipment Finance,Thane,2024-05-29,1500000,1018237.0,48,21.25,16,0,Current,Collected,595
+LN-10243,Joshi Logistics 70,Working Capital,Nashik,2024-06-27,300000,284110.0,36,22.14,10,0,Current,Collected,661
+LN-10244,Singh Pharma 53,Working Capital,Thane,2023-06-11,100000,85620.0,24,21.13,15,0,Current,Collected,594
+LN-10245,Mehta Traders 25,Personal Loan,Nashik,2023-02-28,1500000,958410.0,48,19.51,35,0,Current,Collected,796
+LN-10246,Gupta Garments 47,MSME Loan,Mumbai,2024-06-04,300000,102410.0,36,13.57,21,0,Current,Collected,653
+LN-10247,Desai Construction 97,MSME Loan,Aurangabad,2023-03-24,1500000,1260589.0,36,12.39,10,0,Current,Collected,634
+LN-10248,Singh Pharma 81,Working Capital,Pune,2023-07-10,1500000,1034004.0,60,23.05,46,0,Current,Collected,683
+LN-10249,Singh Pharma 98,MSME Loan,Nashik,2023-03-12,1000000,374706.0,36,19.4,23,0,Current,Collected,657
+LN-10250,Mehta Traders 27,Business Loan,Pune,2023-03-11,300000,108302.0,24,21.56,11,0,Current,Collected,567
+LN-10251,Priya Foods 71,Business Loan,Mumbai,2023-08-29,300000,267377.0,60,17.78,40,0,Current,Collected,643
+LN-10252,Sunita Textiles 37,MSME Loan,Aurangabad,2024-02-18,1000000,734980.0,36,13.41,13,0,Current,Collected,699
+LN-10253,Singh Pharma 90,Business Loan,Mumbai,2023-05-03,300000,251711.0,24,13.5,10,0,Current,Collected,795
+LN-10254,Singh Pharma 16,MSME Loan,Thane,2023-09-10,200000,174267.0,24,20.23,20,90,SMA-2,Defaulted,838
+LN-10255,Mehta Traders 81,Business Loan,Pune,2023-02-10,500000,335826.0,48,17.16,19,15,SMA-0,Partially Collected,758
+LN-10256,Desai Construction 31,Business Loan,Kolhapur,2023-03-25,1500000,954510.0,36,14.41,19,75,SMA-2,Defaulted,675
+LN-10257,Verma Agro 21,Equipment Finance,Aurangabad,2024-03-05,750000,434833.0,36,17.9,29,0,Current,Collected,784
+LN-10258,Priya Foods 71,Equipment Finance,Thane,2024-06-19,500000,253008.0,48,12.77,33,0,Current,Collected,671
+LN-10259,Mehta Traders 71,Equipment Finance,Aurangabad,2023-11-20,100000,58249.0,48,18.98,11,0,Current,Collected,687
+LN-10260,Patel Hardware 12,Business Loan,Thane,2023-09-25,500000,401511.0,24,15.23,7,0,Current,Collected,664
+LN-10261,Kumar Auto Parts 15,Business Loan,Mumbai,2023-07-29,2000000,1382500.0,24,21.57,4,30,SMA-0,Partially Collected,711
+LN-10262,Singh Pharma 16,Equipment Finance,Nashik,2023-11-18,200000,176028.0,24,15.72,15,0,Current,Collected,750
+LN-10263,Joshi Logistics 20,Equipment Finance,Pune,2023-09-02,500000,294099.0,48,17.46,24,0,Current,Collected,783
+LN-10264,Singh Pharma 92,MSME Loan,Nagpur,2023-09-29,1000000,694608.0,12,12.14,3,0,Current,Collected,577
+LN-10265,Priya Foods 66,MSME Loan,Nagpur,2024-02-10,750000,532762.0,36,12.87,31,0,Current,Collected,560
+LN-10266,Verma Agro 35,Personal Loan,Mumbai,2023-05-15,750000,513452.0,48,16.71,27,0,Current,Collected,755
+LN-10267,Patel Hardware 62,MSME Loan,Pune,2023-11-04,750000,567534.0,48,17.76,17,0,Current,Collected,716
+LN-10268,Singh Pharma 32,MSME Loan,Pune,2024-04-13,300000,136300.0,24,19.2,13,0,Current,Collected,796
+LN-10269,Singh Pharma 71,Equipment Finance,Mumbai,2023-11-20,300000,189911.0,48,15.5,32,0,Current,Collected,596
+LN-10270,Sunita Textiles 50,MSME Loan,Pune,2023-03-16,1000000,367746.0,24,20.34,6,0,Current,Collected,795
+LN-10271,Kumar Auto Parts 77,MSME Loan,Nashik,2023-01-10,1000000,549932.0,48,22.32,18,15,SMA-0,Partially Collected,676
+LN-10272,Gupta Garments 96,MSME Loan,Mumbai,2024-04-14,1000000,616984.0,24,21.36,18,45,SMA-1,Partially Collected,696
+LN-10273,Reddy Steel 18,Working Capital,Nashik,2023-04-13,1500000,1085919.0,36,12.48,18,75,SMA-2,Defaulted,667
+LN-10274,Iyer Chemicals 9,Business Loan,Pune,2023-03-17,500000,458923.0,48,17.77,27,15,SMA-0,Partially Collected,701
+LN-10275,Priya Foods 99,Business Loan,Mumbai,2023-08-07,500000,345212.0,24,13.26,12,0,Current,Collected,621
+LN-10276,Nair Exports 54,MSME Loan,Pune,2024-06-02,750000,587502.0,24,14.9,5,0,Current,Collected,686
+LN-10277,Sharma Electronics 65,Working Capital,Mumbai,2023-09-29,500000,314536.0,48,23.84,15,0,Current,Collected,724
+LN-10278,Priya Foods 1,Business Loan,Pune,2023-05-16,750000,534126.0,48,13.71,24,0,Current,Collected,838
+LN-10279,Priya Foods 93,Personal Loan,Nashik,2023-12-24,750000,259579.0,36,17.99,12,30,SMA-0,Partially Collected,568
+LN-10280,Priya Foods 76,MSME Loan,Kolhapur,2023-03-12,1000000,465355.0,36,19.42,8,0,Current,Collected,744
+LN-10281,Desai Construction 85,Personal Loan,Nashik,2023-09-08,300000,160561.0,36,20.43,28,45,SMA-1,Partially Collected,724
+LN-10282,Singh Pharma 20,Personal Loan,Pune,2024-01-14,300000,182136.0,24,18.72,21,0,Current,Collected,690
+LN-10283,Singh Pharma 69,MSME Loan,Mumbai,2023-10-19,100000,32967.0,24,12.12,18,0,Current,Collected,795
+LN-10284,Singh Pharma 45,Business Loan,Nagpur,2023-06-11,500000,195508.0,24,15.92,19,0,Current,Collected,642
+LN-10285,Sharma Electronics 71,Business Loan,Nashik,2024-03-24,100000,47993.0,60,18.21,22,45,SMA-1,Partially Collected,788
+LN-10286,Nair Exports 70,Business Loan,Nashik,2023-11-06,500000,465748.0,36,13.05,31,0,Current,Collected,754
+LN-10287,Patel Hardware 59,Working Capital,Thane,2024-06-25,500000,257688.0,36,16.21,12,0,Current,Collected,597
+LN-10288,Reddy Steel 42,Business Loan,Nagpur,2023-01-09,300000,183998.0,36,12.4,31,0,Current,Collected,794
+LN-10289,Iyer Chemicals 25,MSME Loan,Pune,2023-11-03,500000,213732.0,60,12.94,53,0,Current,Collected,844
+LN-10290,Verma Agro 31,MSME Loan,Kolhapur,2023-04-17,100000,69701.0,24,16.76,16,0,Current,Collected,677
+LN-10291,Desai Construction 50,Personal Loan,Mumbai,2023-05-18,100000,48244.0,36,13.59,31,0,Current,Collected,831
+LN-10292,Kumar Auto Parts 53,Business Loan,Thane,2023-09-28,1000000,434545.0,36,18.81,21,0,Current,Collected,566
+LN-10293,Mehta Traders 41,Business Loan,Pune,2023-04-29,300000,190732.0,36,20.27,13,0,Current,Collected,620
+LN-10294,Verma Agro 61,Business Loan,Aurangabad,2023-04-20,200000,60716.0,12,21.61,6,0,Current,Collected,818
+LN-10295,Verma Agro 49,Personal Loan,Kolhapur,2023-06-09,500000,152491.0,48,14.4,29,0,Current,Collected,831
+LN-10296,Patel Hardware 85,Equipment Finance,Nashik,2023-10-06,750000,331796.0,60,14.01,15,0,Current,Collected,556
+LN-10297,Nair Exports 84,Business Loan,Aurangabad,2023-10-16,200000,64774.0,36,13.25,22,0,Current,Collected,652
+LN-10298,Sunita Textiles 64,Business Loan,Nashik,2023-08-04,500000,185108.0,36,19.64,31,0,Current,Collected,742
+LN-10299,Mehta Traders 17,Business Loan,Nashik,2023-12-18,100000,52026.0,60,20.48,19,0,Current,Collected,790
+LN-10300,Gupta Garments 76,Business Loan,Aurangabad,2023-07-28,100000,82168.0,48,12.38,36,75,SMA-2,Defaulted,611
+LN-10301,Sharma Electronics 13,Personal Loan,Kolhapur,2023-09-28,500000,335916.0,24,23.23,20,0,Current,Collected,566
+LN-10302,Iyer Chemicals 57,Working Capital,Aurangabad,2024-06-01,500000,316617.0,36,12.62,30,0,Current,Collected,720
+LN-10303,Rajan Enterprises 68,MSME Loan,Pune,2024-05-15,500000,245384.0,36,18.5,31,0,Current,Collected,574
+LN-10304,Reddy Steel 59,Working Capital,Thane,2023-09-15,750000,679230.0,36,20.51,20,0,Current,Collected,800
+LN-10305,Mehta Traders 93,Business Loan,Thane,2023-02-22,2000000,1116120.0,48,22.45,42,15,SMA-0,Partially Collected,802
+LN-10306,Sunita Textiles 53,Working Capital,Aurangabad,2023-04-05,500000,178305.0,60,20.57,43,0,Current,Collected,756
+LN-10307,Iyer Chemicals 84,Working Capital,Pune,2024-03-09,300000,210328.0,60,21.62,18,0,Current,Collected,578
+LN-10308,Sunita Textiles 10,MSME Loan,Thane,2023-10-11,750000,280496.0,36,16.07,19,0,Current,Collected,666
+LN-10309,Singh Pharma 34,Working Capital,Pune,2023-02-15,300000,157319.0,24,21.78,16,0,Current,Collected,831
+LN-10310,Sharma Electronics 80,Business Loan,Pune,2023-01-04,300000,188945.0,60,12.96,22,0,Current,Collected,693
+LN-10311,Verma Agro 51,Business Loan,Nashik,2023-12-08,100000,86824.0,48,22.74,31,0,Current,Collected,574
+LN-10312,Joshi Logistics 11,Business Loan,Thane,2023-05-14,100000,62081.0,24,18.57,15,0,Current,Collected,705
+LN-10313,Iyer Chemicals 43,MSME Loan,Thane,2023-09-26,1500000,1134702.0,60,21.81,18,0,Current,Collected,622
+LN-10314,Iyer Chemicals 87,Working Capital,Nashik,2023-06-15,1000000,945331.0,48,17.43,28,0,Current,Collected,669
+LN-10315,Iyer Chemicals 69,Personal Loan,Aurangabad,2024-03-28,750000,289101.0,36,19.72,26,75,SMA-2,Defaulted,642
+LN-10316,Patel Hardware 41,Equipment Finance,Nashik,2024-03-13,300000,143573.0,36,18.32,19,0,Current,Collected,635
+LN-10317,Joshi Logistics 92,Working Capital,Thane,2023-01-10,200000,111295.0,36,20.78,7,0,Current,Collected,667
+LN-10318,Reddy Steel 98,Working Capital,Thane,2023-04-25,200000,114838.0,12,12.98,2,0,Current,Collected,782
+LN-10319,Singh Pharma 70,Business Loan,Kolhapur,2023-03-19,300000,170149.0,24,12.72,10,0,Current,Collected,748
+LN-10320,Mehta Traders 80,MSME Loan,Aurangabad,2023-06-02,500000,444974.0,48,14.97,40,0,Current,Collected,755
+LN-10321,Rajan Enterprises 31,Business Loan,Nashik,2023-02-06,750000,573091.0,12,13.91,4,0,Current,Collected,696
+LN-10322,Joshi Logistics 88,Equipment Finance,Mumbai,2024-01-14,750000,521354.0,24,22.46,15,0,Current,Collected,820
+LN-10323,Reddy Steel 37,Personal Loan,Mumbai,2023-06-01,300000,150328.0,36,14.63,12,15,SMA-0,Partially Collected,688
+LN-10324,Kumar Auto Parts 96,Business Loan,Aurangabad,2024-03-16,1500000,1253196.0,36,23.71,15,0,Current,Collected,730
+LN-10325,Rajan Enterprises 56,Working Capital,Nashik,2023-05-11,750000,690592.0,60,16.04,47,0,Current,Collected,579
+LN-10326,Rajan Enterprises 98,Equipment Finance,Nashik,2023-02-12,500000,416889.0,24,14.19,17,0,Current,Collected,606
+LN-10327,Joshi Logistics 91,Equipment Finance,Pune,2023-11-12,500000,150509.0,24,21.48,6,75,SMA-2,Defaulted,781
+LN-10328,Iyer Chemicals 13,MSME Loan,Thane,2024-01-09,300000,214098.0,48,19.9,24,15,SMA-0,Partially Collected,695
+LN-10329,Singh Pharma 22,MSME Loan,Nagpur,2023-02-10,200000,66648.0,36,17.98,7,0,Current,Collected,597
+LN-10330,Verma Agro 39,Business Loan,Kolhapur,2024-01-02,300000,140233.0,24,18.66,12,90,SMA-2,Defaulted,743
+LN-10331,Reddy Steel 4,Business Loan,Aurangabad,2023-08-04,750000,254018.0,36,20.63,23,0,Current,Collected,773
+LN-10332,Mehta Traders 42,Business Loan,Nagpur,2023-09-13,100000,69247.0,24,14.74,6,0,Current,Collected,685
+LN-10333,Nair Exports 8,Equipment Finance,Nagpur,2023-04-16,200000,149257.0,24,23.96,9,0,Current,Collected,571
+LN-10334,Priya Foods 46,Business Loan,Aurangabad,2023-12-29,100000,37442.0,36,23.7,17,15,SMA-0,Partially Collected,555
+LN-10335,Sharma Electronics 56,Working Capital,Nashik,2024-02-21,100000,54950.0,36,19.8,30,0,Current,Collected,753
+LN-10336,Sunita Textiles 32,MSME Loan,Aurangabad,2023-06-08,1000000,596554.0,60,14.39,53,0,Current,Collected,788
+LN-10337,Gupta Garments 53,Equipment Finance,Nagpur,2023-08-31,750000,404913.0,36,20.16,8,0,Current,Collected,734
+LN-10338,Desai Construction 88,MSME Loan,Thane,2023-06-16,500000,189333.0,36,12.87,26,60,SMA-1,Partially Collected,841
+LN-10339,Nair Exports 24,Equipment Finance,Kolhapur,2023-07-01,100000,57232.0,36,12.37,16,0,Current,Collected,769
+LN-10340,Sunita Textiles 23,Personal Loan,Kolhapur,2024-02-27,500000,394133.0,12,15.09,5,0,Current,Collected,665
+LN-10341,Rajan Enterprises 79,Business Loan,Thane,2023-01-26,500000,173077.0,36,17.55,26,0,Current,Collected,598
+LN-10342,Iyer Chemicals 49,Business Loan,Thane,2023-07-03,200000,70423.0,24,22.42,20,0,Current,Collected,722
+LN-10343,Desai Construction 88,Working Capital,Nashik,2023-12-07,300000,159180.0,60,20.73,51,0,Current,Collected,631
+LN-10344,Kumar Auto Parts 64,Business Loan,Mumbai,2024-02-26,300000,273637.0,24,20.91,14,60,SMA-1,Partially Collected,594
+LN-10345,Reddy Steel 75,Business Loan,Aurangabad,2023-09-12,500000,367286.0,36,17.11,16,0,Current,Collected,569
+LN-10346,Sunita Textiles 30,MSME Loan,Kolhapur,2023-10-01,500000,370568.0,12,16.15,9,0,Current,Collected,770
+LN-10347,Singh Pharma 82,Business Loan,Thane,2023-06-13,100000,53525.0,60,16.45,22,0,Current,Collected,672
+LN-10348,Priya Foods 59,Equipment Finance,Aurangabad,2023-04-21,300000,205764.0,36,23.85,21,45,SMA-1,Partially Collected,783
+LN-10349,Priya Foods 86,Business Loan,Kolhapur,2024-01-27,500000,153293.0,36,12.48,16,0,Current,Collected,770
+LN-10350,Mehta Traders 60,Working Capital,Thane,2023-02-09,500000,356731.0,12,22.4,7,0,Current,Collected,552
+LN-10351,Reddy Steel 37,Working Capital,Kolhapur,2024-04-26,1000000,893637.0,48,18.94,17,15,SMA-0,Partially Collected,731
+LN-10352,Joshi Logistics 70,Equipment Finance,Nashik,2023-08-16,750000,523630.0,24,17.26,8,30,SMA-0,Partially Collected,755
+LN-10353,Sunita Textiles 10,Equipment Finance,Mumbai,2023-07-24,200000,173581.0,48,20.7,40,30,SMA-0,Partially Collected,589
+LN-10354,Singh Pharma 45,Working Capital,Mumbai,2024-04-16,100000,77058.0,24,17.84,6,45,SMA-1,Partially Collected,608
+LN-10355,Desai Construction 39,Business Loan,Thane,2023-12-25,500000,189181.0,24,22.48,13,0,Current,Collected,611
+LN-10356,Joshi Logistics 55,Working Capital,Kolhapur,2023-11-09,100000,88659.0,12,22.81,4,0,Current,Collected,681
+LN-10357,Verma Agro 33,Working Capital,Nashik,2023-08-22,500000,171594.0,36,17.06,8,0,Current,Collected,609
+LN-10358,Singh Pharma 39,Working Capital,Pune,2023-08-17,1500000,970618.0,36,15.32,8,30,SMA-0,Partially Collected,671
+LN-10359,Kumar Auto Parts 50,Equipment Finance,Aurangabad,2023-01-25,500000,196195.0,12,19.11,3,0,Current,Collected,656
+LN-10360,Iyer Chemicals 62,Business Loan,Aurangabad,2023-07-17,300000,92283.0,48,22.95,38,15,SMA-0,Partially Collected,645
+LN-10361,Rajan Enterprises 31,MSME Loan,Nagpur,2024-02-13,500000,287161.0,36,14.53,14,0,Current,Collected,784
+LN-10362,Patel Hardware 74,Working Capital,Nashik,2023-12-03,500000,245888.0,36,19.48,31,0,Current,Collected,611
+LN-10363,Sharma Electronics 74,Business Loan,Kolhapur,2023-10-13,500000,307950.0,36,19.58,21,0,Current,Collected,805
+LN-10364,Priya Foods 90,Working Capital,Nagpur,2023-03-13,1500000,1012770.0,36,20.8,18,90,SMA-2,Defaulted,598
+LN-10365,Priya Foods 3,Business Loan,Thane,2023-10-13,300000,98529.0,36,13.58,21,60,SMA-1,Partially Collected,708
+LN-10366,Iyer Chemicals 85,Business Loan,Kolhapur,2023-12-26,1500000,569928.0,24,20.59,13,0,Current,Collected,673
+LN-10367,Patel Hardware 36,Business Loan,Nagpur,2024-06-05,1500000,994676.0,24,22.91,17,0,Current,Collected,756
+LN-10368,Mehta Traders 73,Business Loan,Mumbai,2024-02-14,200000,104612.0,48,14.16,19,0,Current,Collected,597
+LN-10369,Iyer Chemicals 88,MSME Loan,Aurangabad,2023-12-06,100000,77396.0,60,14.85,26,0,Current,Collected,685
+LN-10370,Nair Exports 96,Business Loan,Kolhapur,2023-01-29,200000,144798.0,36,23.66,29,15,SMA-0,Partially Collected,750
+LN-10371,Mehta Traders 78,Personal Loan,Nagpur,2023-04-29,100000,84964.0,24,14.17,20,0,Current,Collected,799
+LN-10372,Verma Agro 64,Equipment Finance,Mumbai,2023-09-25,100000,75012.0,36,22.25,29,0,Current,Collected,844
+LN-10373,Iyer Chemicals 37,Business Loan,Nashik,2023-07-02,750000,434591.0,36,17.91,17,30,SMA-0,Partially Collected,758
+LN-10374,Nair Exports 30,Equipment Finance,Nagpur,2023-09-29,100000,73743.0,12,14.97,8,0,Current,Collected,760
+LN-10375,Desai Construction 46,Working Capital,Thane,2023-02-09,300000,143699.0,24,22.45,12,0,Current,Collected,741
+LN-10376,Kumar Auto Parts 82,Working Capital,Thane,2023-04-22,1000000,499104.0,48,17.34,26,0,Current,Collected,593
+LN-10377,Kumar Auto Parts 80,Business Loan,Thane,2024-03-20,100000,81284.0,36,18.18,12,0,Current,Collected,578
+LN-10378,Priya Foods 87,Working Capital,Kolhapur,2023-12-20,1000000,590173.0,12,16.31,7,0,Current,Collected,608
+LN-10379,Nair Exports 93,Working Capital,Aurangabad,2023-11-18,300000,245684.0,24,19.12,7,0,Current,Collected,620
+LN-10380,Nair Exports 85,Business Loan,Nagpur,2024-03-22,200000,166915.0,24,13.96,10,0,Current,Collected,641
+LN-10381,Joshi Logistics 18,Business Loan,Nashik,2024-06-07,750000,643062.0,36,16.69,28,30,SMA-0,Partially Collected,814
+LN-10382,Joshi Logistics 13,Equipment Finance,Nagpur,2023-04-29,500000,447906.0,12,23.63,4,0,Current,Collected,769
+LN-10383,Reddy Steel 81,Business Loan,Aurangabad,2024-01-30,1000000,580140.0,24,15.1,5,0,Current,Collected,764
+LN-10384,Joshi Logistics 6,Working Capital,Mumbai,2023-07-14,750000,380448.0,48,19.88,11,0,Current,Collected,826
+LN-10385,Priya Foods 57,MSME Loan,Aurangabad,2023-09-18,1000000,678429.0,24,15.9,20,0,Current,Collected,613
+LN-10386,Mehta Traders 75,Personal Loan,Thane,2023-02-15,300000,162379.0,36,21.28,19,0,Current,Collected,841
+LN-10387,Sharma Electronics 94,Equipment Finance,Kolhapur,2024-03-22,200000,138140.0,24,13.57,11,0,Current,Collected,794
+LN-10388,Sunita Textiles 12,Business Loan,Mumbai,2023-01-02,750000,568973.0,12,23.64,9,0,Current,Collected,611
+LN-10389,Reddy Steel 38,Business Loan,Kolhapur,2024-06-16,1000000,747463.0,24,17.45,18,120,NPA,Defaulted,719
+LN-10390,Sharma Electronics 96,Equipment Finance,Thane,2023-07-21,2000000,1086919.0,48,14.83,20,0,Current,Collected,818
+LN-10391,Patel Hardware 23,Working Capital,Pune,2024-01-08,300000,122538.0,48,12.88,32,0,Current,Collected,816
+LN-10392,Kumar Auto Parts 17,Working Capital,Aurangabad,2024-03-17,300000,173953.0,48,14.04,35,15,SMA-0,Partially Collected,603
+LN-10393,Nair Exports 70,Business Loan,Aurangabad,2023-03-13,750000,294515.0,36,18.24,23,0,Current,Collected,565
+LN-10394,Reddy Steel 47,Business Loan,Nashik,2023-12-05,300000,263569.0,36,16.04,11,0,Current,Collected,557
+LN-10395,Gupta Garments 65,Business Loan,Nagpur,2023-11-18,1500000,787231.0,24,21.95,19,0,Current,Collected,653
+LN-10396,Reddy Steel 35,Equipment Finance,Mumbai,2023-05-08,1000000,400399.0,24,17.17,13,0,Current,Collected,608
+LN-10397,Iyer Chemicals 22,Business Loan,Kolhapur,2023-11-04,300000,94962.0,48,14.98,19,0,Current,Collected,589
+LN-10398,Priya Foods 62,MSME Loan,Mumbai,2024-06-03,750000,539838.0,12,19.41,5,0,Current,Collected,786
+LN-10399,Nair Exports 38,Equipment Finance,Nashik,2023-11-13,750000,535490.0,12,20.48,2,15,SMA-0,Partially Collected,643
+LN-10400,Verma Agro 44,Personal Loan,Nashik,2024-02-23,200000,104279.0,24,14.0,6,0,Current,Collected,771
+LN-10401,Nair Exports 15,MSME Loan,Kolhapur,2023-12-01,1500000,519919.0,12,14.01,8,0,Current,Collected,753
+LN-10402,Singh Pharma 10,Business Loan,Nagpur,2024-02-17,500000,283129.0,24,12.44,4,0,Current,Collected,687
+LN-10403,Sunita Textiles 97,Equipment Finance,Kolhapur,2023-10-30,1000000,502291.0,36,20.84,17,0,Current,Collected,849
+LN-10404,Kumar Auto Parts 87,Equipment Finance,Kolhapur,2023-05-11,300000,222039.0,36,19.97,20,0,Current,Collected,756
+LN-10405,Verma Agro 87,MSME Loan,Thane,2023-07-16,1000000,693757.0,48,17.7,11,0,Current,Collected,630
+LN-10406,Patel Hardware 72,Personal Loan,Nagpur,2024-03-06,300000,161096.0,48,22.13,42,75,SMA-2,Defaulted,767
+LN-10407,Sharma Electronics 12,Working Capital,Aurangabad,2024-01-24,100000,44163.0,24,21.67,8,0,Current,Collected,551
+LN-10408,Nair Exports 51,Business Loan,Thane,2023-06-28,1500000,1413335.0,24,19.02,9,0,Current,Collected,727
+LN-10409,Mehta Traders 34,Business Loan,Pune,2023-11-05,100000,59510.0,36,22.42,14,0,Current,Collected,828
+LN-10410,Gupta Garments 16,MSME Loan,Nagpur,2024-02-20,300000,224213.0,36,14.47,13,0,Current,Collected,695
+LN-10411,Singh Pharma 48,Working Capital,Nashik,2023-01-01,1500000,587039.0,24,13.34,4,30,SMA-0,Partially Collected,773
+LN-10412,Joshi Logistics 96,Business Loan,Thane,2023-11-08,1500000,923450.0,36,15.24,25,120,NPA,Defaulted,611
+LN-10413,Joshi Logistics 34,Equipment Finance,Nagpur,2023-10-21,500000,158949.0,36,12.69,31,0,Current,Collected,843
+LN-10414,Desai Construction 49,Equipment Finance,Mumbai,2023-08-04,500000,314273.0,36,18.37,12,0,Current,Collected,788
+LN-10415,Iyer Chemicals 82,Business Loan,Kolhapur,2024-03-16,300000,277983.0,36,23.24,23,0,Current,Collected,744
+LN-10416,Sharma Electronics 14,Equipment Finance,Pune,2023-11-26,300000,164920.0,24,12.47,17,45,SMA-1,Partially Collected,715
+LN-10417,Joshi Logistics 30,Personal Loan,Aurangabad,2024-04-21,300000,97604.0,60,13.47,47,0,Current,Collected,771
+LN-10418,Singh Pharma 4,Business Loan,Kolhapur,2024-03-28,750000,240091.0,48,17.43,23,0,Current,Collected,610
+LN-10419,Desai Construction 72,MSME Loan,Mumbai,2024-03-28,750000,414144.0,24,23.21,9,0,Current,Collected,678
+LN-10420,Sharma Electronics 79,MSME Loan,Mumbai,2023-08-07,750000,303012.0,48,15.79,20,0,Current,Collected,722
+LN-10421,Kumar Auto Parts 83,Working Capital,Pune,2024-06-07,750000,236384.0,36,18.09,25,0,Current,Collected,705
+LN-10422,Rajan Enterprises 82,Personal Loan,Aurangabad,2024-04-29,100000,79154.0,48,12.5,37,0,Current,Collected,659
+LN-10423,Iyer Chemicals 60,MSME Loan,Nashik,2023-06-23,500000,299020.0,48,13.78,15,0,Current,Collected,818
+LN-10424,Reddy Steel 90,Working Capital,Thane,2023-03-28,100000,48801.0,36,23.84,16,15,SMA-0,Partially Collected,827
+LN-10425,Priya Foods 84,MSME Loan,Aurangabad,2023-10-18,500000,442527.0,12,23.58,9,0,Current,Collected,623
+LN-10426,Patel Hardware 15,MSME Loan,Nagpur,2024-06-11,300000,112647.0,24,12.06,18,0,Current,Collected,756
+LN-10427,Sunita Textiles 6,Business Loan,Mumbai,2023-12-10,1000000,921347.0,36,23.42,32,0,Current,Collected,828
+LN-10428,Mehta Traders 39,Business Loan,Nagpur,2023-04-06,300000,151224.0,36,19.67,26,0,Current,Collected,753
+LN-10429,Singh Pharma 15,Business Loan,Nashik,2023-08-29,200000,175492.0,24,22.42,11,0,Current,Collected,710
+LN-10430,Rajan Enterprises 31,Equipment Finance,Nagpur,2023-11-14,200000,138383.0,24,17.46,14,0,Current,Collected,577
+LN-10431,Reddy Steel 69,Business Loan,Aurangabad,2023-08-19,750000,628020.0,48,18.19,31,0,Current,Collected,806
+LN-10432,Sunita Textiles 50,Personal Loan,Nagpur,2023-07-23,500000,469804.0,60,17.87,15,0,Current,Collected,714
+LN-10433,Singh Pharma 48,Business Loan,Nashik,2023-05-31,200000,97493.0,36,20.0,20,0,Current,Collected,612
+LN-10434,Joshi Logistics 96,Business Loan,Nashik,2023-01-26,100000,92474.0,24,13.68,16,0,Current,Collected,571
+LN-10435,Verma Agro 70,MSME Loan,Nashik,2023-02-17,750000,414872.0,24,12.36,7,15,SMA-0,Partially Collected,619
+LN-10436,Patel Hardware 76,Working Capital,Aurangabad,2023-09-08,100000,55058.0,12,15.7,8,0,Current,Collected,645
+LN-10437,Verma Agro 94,Business Loan,Nashik,2024-05-01,1000000,521252.0,60,20.46,36,15,SMA-0,Partially Collected,712
+LN-10438,Sunita Textiles 54,MSME Loan,Mumbai,2023-03-16,750000,488936.0,24,14.42,20,0,Current,Collected,628
+LN-10439,Joshi Logistics 13,Personal Loan,Kolhapur,2024-04-11,100000,40019.0,36,20.08,8,0,Current,Collected,554
+LN-10440,Iyer Chemicals 63,Business Loan,Nashik,2024-02-29,100000,65991.0,24,23.64,9,0,Current,Collected,669
+LN-10441,Desai Construction 53,MSME Loan,Nagpur,2023-07-19,2000000,1304216.0,36,13.13,22,0,Current,Collected,727
+LN-10442,Priya Foods 5,Working Capital,Thane,2024-01-29,300000,238571.0,36,20.07,14,15,SMA-0,Partially Collected,725
+LN-10443,Verma Agro 48,Business Loan,Nagpur,2024-05-21,300000,252562.0,48,17.33,33,0,Current,Collected,766
+LN-10444,Kumar Auto Parts 57,MSME Loan,Thane,2024-02-14,1000000,586287.0,24,22.42,17,15,SMA-0,Partially Collected,605
+LN-10445,Singh Pharma 31,MSME Loan,Nagpur,2023-09-07,1500000,744775.0,12,14.13,3,0,Current,Collected,736
+LN-10446,Iyer Chemicals 47,MSME Loan,Aurangabad,2023-06-01,2000000,937135.0,24,20.31,13,0,Current,Collected,781
+LN-10447,Rajan Enterprises 88,Business Loan,Nagpur,2023-01-06,750000,319879.0,60,22.06,33,0,Current,Collected,804
+LN-10448,Sharma Electronics 70,Business Loan,Aurangabad,2023-04-20,300000,101241.0,48,23.34,22,0,Current,Collected,653
+LN-10449,Reddy Steel 83,MSME Loan,Aurangabad,2024-03-11,100000,52259.0,36,20.2,30,0,Current,Collected,626
+LN-10450,Sharma Electronics 8,Business Loan,Nashik,2023-08-13,750000,356746.0,36,17.97,28,0,Current,Collected,779
+LN-10451,Patel Hardware 36,Working Capital,Mumbai,2023-06-30,500000,464086.0,36,19.41,24,0,Current,Collected,807
+LN-10452,Kumar Auto Parts 16,MSME Loan,Thane,2024-06-14,300000,198753.0,24,22.43,16,0,Current,Collected,813
+LN-10453,Iyer Chemicals 59,MSME Loan,Nashik,2024-04-20,1500000,788595.0,60,18.85,31,0,Current,Collected,731
+LN-10454,Rajan Enterprises 85,Working Capital,Nashik,2023-02-21,200000,135461.0,36,12.36,30,120,NPA,Defaulted,805
+LN-10455,Kumar Auto Parts 83,Equipment Finance,Kolhapur,2023-09-13,500000,195239.0,36,23.17,24,60,SMA-1,Partially Collected,587
+LN-10456,Joshi Logistics 77,Business Loan,Aurangabad,2023-05-05,100000,58863.0,36,20.27,25,0,Current,Collected,725
+LN-10457,Mehta Traders 7,Personal Loan,Aurangabad,2024-04-12,500000,353526.0,12,20.12,9,0,Current,Collected,576
+LN-10458,Nair Exports 43,Business Loan,Thane,2023-05-17,100000,61778.0,24,14.59,9,0,Current,Collected,825
+LN-10459,Kumar Auto Parts 17,Business Loan,Nagpur,2024-04-20,200000,112231.0,48,19.91,36,15,SMA-0,Partially Collected,689
+LN-10460,Nair Exports 73,Working Capital,Nagpur,2024-06-27,200000,189200.0,12,16.73,4,0,Current,Collected,848
+LN-10461,Kumar Auto Parts 9,MSME Loan,Nashik,2023-11-21,500000,436102.0,36,19.81,15,0,Current,Collected,836
+LN-10462,Iyer Chemicals 98,MSME Loan,Pune,2024-03-29,750000,528910.0,24,13.28,10,30,SMA-0,Partially Collected,640
+LN-10463,Gupta Garments 27,Business Loan,Pune,2024-05-31,500000,335048.0,36,19.89,31,0,Current,Collected,610
+LN-10464,Desai Construction 28,MSME Loan,Nagpur,2024-03-12,1500000,1055144.0,24,23.99,19,0,Current,Collected,712
+LN-10465,Iyer Chemicals 30,Business Loan,Pune,2024-04-01,300000,129256.0,36,12.58,24,0,Current,Collected,692
+LN-10466,Sharma Electronics 19,Personal Loan,Kolhapur,2023-06-12,300000,167052.0,48,23.73,34,0,Current,Collected,802
+LN-10467,Nair Exports 77,Business Loan,Nagpur,2024-05-01,1000000,325649.0,24,16.88,14,0,Current,Collected,818
+LN-10468,Mehta Traders 36,Working Capital,Aurangabad,2024-04-05,200000,121821.0,36,22.45,31,0,Current,Collected,840
+LN-10469,Iyer Chemicals 19,Equipment Finance,Nashik,2023-09-23,1500000,979449.0,36,21.39,19,0,Current,Collected,736
+LN-10470,Sunita Textiles 70,Working Capital,Mumbai,2023-09-11,100000,44804.0,36,18.8,16,0,Current,Collected,840
+LN-10471,Priya Foods 23,Working Capital,Nashik,2023-10-11,1500000,1389928.0,60,20.86,18,30,SMA-0,Partially Collected,635
+LN-10472,Rajan Enterprises 85,Equipment Finance,Nagpur,2024-06-17,100000,89115.0,48,22.54,36,0,Current,Collected,715
+LN-10473,Iyer Chemicals 4,MSME Loan,Kolhapur,2024-05-11,1000000,769393.0,24,16.85,17,0,Current,Collected,663
+LN-10474,Sunita Textiles 2,Business Loan,Nagpur,2023-09-02,500000,323351.0,12,15.92,5,0,Current,Collected,732
+LN-10475,Sharma Electronics 31,Business Loan,Nashik,2023-10-09,2000000,1730960.0,24,20.01,5,60,SMA-1,Partially Collected,756
+LN-10476,Desai Construction 42,Working Capital,Kolhapur,2024-03-26,100000,38492.0,36,21.69,28,0,Current,Collected,805
+LN-10477,Mehta Traders 23,Working Capital,Kolhapur,2023-03-21,500000,406916.0,12,21.15,2,0,Current,Collected,784
+LN-10478,Priya Foods 7,MSME Loan,Kolhapur,2023-10-20,1500000,571700.0,36,21.57,24,30,SMA-0,Partially Collected,552
+LN-10479,Sunita Textiles 95,Business Loan,Thane,2023-08-29,500000,408118.0,36,17.23,31,30,SMA-0,Partially Collected,757
+LN-10480,Patel Hardware 68,MSME Loan,Nagpur,2023-10-06,500000,239624.0,24,21.81,12,0,Current,Collected,746
+LN-10481,Rajan Enterprises 96,Equipment Finance,Pune,2023-12-10,750000,652582.0,48,13.44,17,15,SMA-0,Partially Collected,674
+LN-10482,Rajan Enterprises 61,MSME Loan,Pune,2023-11-24,500000,456814.0,24,18.53,16,0,Current,Collected,687
+LN-10483,Singh Pharma 47,Working Capital,Nagpur,2023-03-24,500000,198359.0,12,12.07,9,0,Current,Collected,574
+LN-10484,Gupta Garments 76,Personal Loan,Nagpur,2023-05-22,500000,300370.0,48,15.9,27,0,Current,Collected,617
+LN-10485,Rajan Enterprises 58,Business Loan,Thane,2023-06-04,1500000,1406463.0,36,16.4,31,0,Current,Collected,610
+LN-10486,Gupta Garments 29,MSME Loan,Pune,2023-08-25,100000,61421.0,36,16.75,8,0,Current,Collected,578
+LN-10487,Desai Construction 6,MSME Loan,Nagpur,2024-01-28,300000,258392.0,36,20.35,19,0,Current,Collected,568
+LN-10488,Verma Agro 85,MSME Loan,Nagpur,2023-06-06,1500000,1024013.0,24,16.66,16,0,Current,Collected,720
+LN-10489,Gupta Garments 39,Business Loan,Thane,2023-08-08,1000000,543964.0,48,17.38,38,0,Current,Collected,623
+LN-10490,Singh Pharma 83,Business Loan,Thane,2023-03-07,500000,242880.0,48,14.85,15,0,Current,Collected,610
+LN-10491,Mehta Traders 8,Working Capital,Nashik,2024-02-29,500000,216048.0,36,16.48,27,0,Current,Collected,702
+LN-10492,Singh Pharma 52,MSME Loan,Thane,2024-02-22,300000,238551.0,24,14.73,14,0,Current,Collected,825
+LN-10493,Patel Hardware 88,MSME Loan,Mumbai,2023-12-05,200000,110250.0,36,12.88,17,0,Current,Collected,597
+LN-10494,Rajan Enterprises 63,Personal Loan,Pune,2024-04-22,500000,316165.0,36,19.24,10,0,Current,Collected,760
+LN-10495,Verma Agro 57,Working Capital,Nashik,2024-03-01,300000,186003.0,12,20.02,9,0,Current,Collected,688
+LN-10496,Rajan Enterprises 11,Business Loan,Mumbai,2023-03-05,500000,337616.0,60,19.43,18,75,SMA-2,Defaulted,659
+LN-10497,Sharma Electronics 78,Equipment Finance,Nagpur,2023-07-31,100000,86263.0,24,17.56,10,0,Current,Collected,732
+LN-10498,Sunita Textiles 9,MSME Loan,Nagpur,2024-03-06,2000000,1874961.0,60,16.56,24,0,Current,Collected,577
+LN-10499,Sunita Textiles 36,Working Capital,Nashik,2024-02-03,2000000,1129859.0,36,22.36,29,0,Current,Collected,746
