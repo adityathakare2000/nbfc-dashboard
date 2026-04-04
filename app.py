@@ -606,7 +606,8 @@ elif page == "✅ Pre-Disbursal Check":
             def color_bkt(val):
                 bgs = {"Current":"background-color:#e8f5e9","SMA-0":"background-color:#fff8e1","SMA-1":"background-color:#fff3e0","SMA-2":"background-color:#fdecea","NPA":"background-color:#fdecea"}
                 return bgs.get(val,"")
-            st.dataframe(show.style.map(color_bkt, subset=["bucket"]).reset_index(drop=True), use_container_width=True, hide_index=True)
+            st.dataframe(show, column_config={"bucket": st.column_config.TextColumn("Bucket")}, use_container_width=True, hide_index=True
+)
 
             st.markdown("---")
             col_charts1, col_charts2 = st.columns(2)
