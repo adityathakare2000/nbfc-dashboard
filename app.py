@@ -949,10 +949,7 @@ elif page == "Borrower Eligibility":
 
 elif page == "AI Insights":
     page_header("🤖 AI Insights")
-    st.caption(
-        f"Analysis based on {
-            len(df):,    } loan records from {
-            st.session_state.org}")
+    st.caption(f"Analysis based on {len(df):,} loan records from {st.session_state.org}")
 
     par30 = safe_par(df)
     npa_rate = safe_npa(df)
