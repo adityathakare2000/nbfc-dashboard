@@ -3,3 +3,6 @@ streamlit
 plotly
 openpyxl
 numpy
+bcrypt
+supabase
+python-dotenv
