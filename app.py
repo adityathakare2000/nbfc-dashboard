@@ -660,7 +660,7 @@ elif page == "✅ Pre-Disbursal Check":
             show = disp[["loan_id","product","loan_fmt","outstanding_fmt","emi_fmt","emis_paid","tenure_months","dpd","bucket","collection_status"]].rename(columns={"loan_fmt":"loan","outstanding_fmt":"outstanding","emi_fmt":"EMI/mo","emis_paid":"EMIs paid","tenure_months":"tenure","collection_status":"collection"})
             def color_bkt(val):
                 return {"Current":"background-color:#e8f5e9","SMA-0":"background-color:#fff8e1","SMA-1":"background-color:#fff3e0","SMA-2":"background-color:#fdecea","NPA":"background-color:#fdecea"}.get(val,"")
-            st.dataframe(show.style.map(color_bkt, subset=["bucket"]).reset_index(drop=True), use_container_width=True, hide_index=True)
+            st.dataframe(show.reset_index(drop=True).style.map(color_bkt, subset=["bucket"]), use_container_width=True, hide_index=True)
 
             st.markdown("---")
             cc1, cc2 = st.columns(2)
